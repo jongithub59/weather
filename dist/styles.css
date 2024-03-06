@@ -10,18 +10,26 @@
     font-family: MainFont;
 }
 
-:root {
+/* :root {
 
-}
+} */
 
 body {
     height: 100vh;
 }
 
 .content {
-    display: flex;
+    /* display: flex; */
     height: 100%;
     width: 100%;
+}
+
+input {
+    margin: 20px;
+}
+
+p {
+    margin: 20px;
 }
 
 
