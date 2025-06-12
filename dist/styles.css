@@ -13,6 +13,7 @@
 :root {
     --main: rgb(46, 46, 46);
     --text: rgb(255, 96, 96);
+    --search-text: rgb(121, 0, 0);
     --secondary: rgb(136, 136, 136);
 }
 
@@ -70,18 +71,19 @@ body {
 
 .search-area input {
     margin: 10px;
-    padding: 5px;
+    padding: 10px;
     height: 50px;
     width: 300px;
-    font-size: 20px;
+    font-size: 25px;;
+    letter-spacing: 1px;
     background-color: var(--secondary);
-    color: var(--text);
+    color: var(--search-text);
     border-radius: 7px;
     border: none;
 }
 
 .search-area input::placeholder {
-    color: var(--text);
+    color: var(--search-text);
     font-size: 25px;
 }
 
