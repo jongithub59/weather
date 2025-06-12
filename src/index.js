@@ -11,7 +11,7 @@ search.addEventListener("keypress", (e) => {
    let data = ""
    try {
      data = await fetch(
-       "http://api.weatherapi.com/v1/current.json?key=266ffb2a72a14ebc8d9161324240603&q=" + search.value + "&aqi=no",
+       "https://api.weatherapi.com/v1/current.json?key=266ffb2a72a14ebc8d9161324240603&q=" + search.value + "&aqi=no",
        { mode: "cors" }
      )
      const forecast = await data.json()
